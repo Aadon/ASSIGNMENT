@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <h2>Don't Have an Account?</h2>
+    <h3>Register Here!</h3>
+  </header>
+  <form action="./login.html">
+    <div class="first-name">
+      <label for="fName">First Name</label>
+      <input type="text" name="fName" id="fName" placeholder="Enter first name here" required>
+    </div>
+    <div class="last-name">
+      <label for="lName">Last Name</label>
+      <input type="text" name="lName" id="lName" placeholder="Enter last name here" required>
+    </div>
+    <div class="phone">
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" id="phone" placeholder="Enter phone number here" required>
+    </div>
+    <div class="email">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter email here" required>
+    </div>
+    <div class="gender">
+      <p class="select">Select your gender</p>
+      <select name="gender" id="">
+        <option value="select"> Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <div class="dob">
+    <label for="date">Date of Birth</label>
+    <input type="date" name="dob" id="dob">
+    </div>
+    <div class="color">
+      <label for="color">Your Favourite Color</label>
+      <input type="color" name="color" id="color">
+    </div>
+    <div class="pwd">
+      <label for="pwd">Password</label>
+      <input type="password" name="pwd" id="" maxlength="12" minlength="8"
+        title="Must contain atleast one uppercase, one lowercase and one special character (!.,/?;:&amp;%$£*)" required="">
+    </div>
+    <div class="confirm-pwd">
+      <label for="Cpwd">Confirm Password</label>
+      <input type="password" name="pwd" id="" maxlength="12" minlength="8"
+        title="Must contain atleast one uppercase, one lowercase and one special character (!.,/?;:&amp;%$£*)" required="">
+    </div>
+    <input type="submit" value="submit">
+  </form>
+</body>
+</html>
